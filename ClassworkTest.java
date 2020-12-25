@@ -27,7 +27,7 @@ public class ClassworkTest {
 		stuArr[1] = new Student("周述蔚","No02",100);
 		stuArr[2] = new Student("姜凯夫","No03",100);
 		stuArr[3] = new Student("赵粹奇","No04",100);
-		for(int i=0;i<4;i++) {
+		for(int i=0;i<stuArr.length;i++) {
 			stuArr[i].ToString();
 		}
 		
