@@ -9,29 +9,31 @@ import com.newer.*;
 
 public class ClassworkTest {
 	public static void main(String[] args) {
-		System.out.println("******************µÚÒ»Ìâ**********************");
-		Product pro = new Product();
-		pro.ToString();
+		System.out.println("******************ç¬¬ä¸€é¢˜**********************");
+		Product pro1 = new Product();
+		pro1.ToString();
+		Product pro2 = new Product("è£¤å­","å†…è£¤",299,"æ¹–å—é•¿æ²™");
+		pro1.ToString();
 		
 		System.out.println();
-		System.out.println("******************µÚ¶şÌâ**********************");
-		User u1 = new User("qwewqewqeqw","12345678912","ºşÄÏ³¤É³","123456789123456789");
-		User u2 = new User("qwewqe213eqw","12345678912","ºşÄÏ³¤É³","123456789123456789");
+		System.out.println("******************ç¬¬äºŒé¢˜**********************");
+		User u1 = new User("qwewqewqeqw","12345678912","æ¹–å—é•¿æ²™","123456789123456789");
+		User u2 = new User("qwewqe213eqw","12345678912","æ¹–å—é•¿æ²™","123456789123456789");
 		
 		System.out.println();
-		System.out.println("******************µÚÈıÌâ**********************");
+		System.out.println("******************ç¬¬ä¸‰é¢˜**********************");
 		Student stuArr[] = new Student[4];
-		stuArr[0] = new Student("À×ÑîÁú","No01",100);
-		stuArr[1] = new Student("ÖÜÊöÎµ","No02",100);
-		stuArr[2] = new Student("½ª¿­·ò","No03",100);
-		stuArr[3] = new Student("ÕÔ´âÆæ","No04",100);
+		stuArr[0] = new Student("é›·æ¨é¾™","No01",100);
+		stuArr[1] = new Student("å‘¨è¿°è”š","No02",100);
+		stuArr[2] = new Student("å§œå‡¯å¤«","No03",100);
+		stuArr[3] = new Student("èµµç²¹å¥‡","No04",100);
 		for(int i=0;i<4;i++) {
 			stuArr[i].ToString();
 		}
 		
 		System.out.println();
-		System.out.println("******************µÚËÄÌâ**********************");
-		Student stu1 = new Student("À×ÑîÁú","No05",200);
+		System.out.println("******************ç¬¬å››é¢˜**********************");
+		Student stu1 = new Student("é›·æ¨é¾™","No05",200);
 		stu1.avg();
 	}
 }
