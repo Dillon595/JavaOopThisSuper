@@ -13,7 +13,7 @@ public class ClassworkTest {
 		Product pro1 = new Product();
 		pro1.ToString();
 		Product pro2 = new Product("裤子","内裤",299,"湖南长沙");
-		pro1.ToString();
+		pro2.ToString();
 		
 		System.out.println();
 		System.out.println("******************第二题**********************");
